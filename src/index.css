@@ -1,0 +1,60 @@
+.wrap{
+  background-color: rgb(201, 221, 221);
+  min-height: 60px;
+
+}
+
+.header {
+  color: aliceblue; 
+  margin: 0;
+  padding: 4px;
+  text-align: center;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.nav {
+  padding: 4px;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.nav a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.disp {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  background-color: black;
+  color: aliceblue;
+  padding: 6px;
+  border: 1px solid cyan;
+  border-radius: 5px;
+  width: 60vw;
+  text-align: center;
+}
+
+.c-name{
+  color: aliceblue;
+  padding-left: 5px;
+}
+
+button{
+  color: black;
+  font-weight: 700;
+  border: 1px solid cyan;
+  border-radius: 6px;
+  padding: 5px;
+  width: 6rem;
+  margin-top: 40px;
+}
